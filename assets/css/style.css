@@ -5,11 +5,18 @@
 
 }
 
+.container{
+    max-width: 1200px;
+    width: 100%;
+}
+
 main{
     height: 100vh; 
    
    
 }
+
+
 
 .main-container{  
     display: grid; 
