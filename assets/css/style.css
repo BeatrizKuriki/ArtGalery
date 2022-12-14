@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@100&display=swap');
+
+
 body{
     margin: 0;
     padding: 0;
@@ -34,24 +37,86 @@ header{
 
  h1{
     font-family: 'Big Shoulders Display';
-    color: white;
+    font-style: normal;   
     font-weight: 900;
     font-size: 96px;  
     line-height: 88px;
     margin: 0 auto;
     padding: 2rem;
+    font: 'Big Shoulders Display', cursive;
+    height: 176px;
+    left: 36%;
+    right: 46.75%;
+    top: 189px;
+    color: white;
 
 }
 
+h1 span{
+    display: inline-block;
+    background: #151515;
+    background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	padding:0;
+
+}
+#letra{
+    display: inline-block;
+    background: linear-gradient(to right, #fff 50%,#151515 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	padding:0;
+
+}
+
+button{
+    background-color: #151515 ;
+    width: 260px;
+    height: 72px;
+    left: 72.55%;
+    right: 11.45%;
+    top: 51.75%;
+    bottom: 39.25%;
+}
+
+button p{
+    color: #fff;
+    left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+
+    
+}
 .text-button{
     display: flex;
     flex-direction: column ;
     padding: 190px 160px;
+    
+}
+
+#paragrafo{
+    color: #444444;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-style: normal;
+    width: 350px;
+    height: 160px;
+     
 }
 
 .text-button p{
-    font-size: 22px;
-    line-height: 32px;
+      
 }
 
 
